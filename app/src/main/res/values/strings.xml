@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Curriculum Vitae V2</string>
+    <string name="genderTXT">Gender</string>
+    <string name="genderMale">Male</string>
+    <string name="genderFemale">Female</string>
+    <string name="NextBTN">NEXT</string>
+</resources>
