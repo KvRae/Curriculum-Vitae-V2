@@ -4,4 +4,5 @@
     <string name="genderMale">Male</string>
     <string name="genderFemale">Female</string>
     <string name="NextBTN">NEXT</string>
+    <string name="name">Name</string>
 </resources>

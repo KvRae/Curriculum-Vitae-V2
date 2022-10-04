@@ -23,14 +23,19 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="20dp"
+        android:hint="@string/name"
+        app:helperText="required*"
+        app:helperTextTextColor="@color/design_default_color_secondary_variant"
         android:ems="10"
         android:inputType="textPersonName"
+        app:helperTextEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/emailTF"
+        android:hint="Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -44,6 +49,7 @@
 
     <EditText
         android:id="@+id/ageTF"
+        android:hint="Age"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -59,9 +65,8 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
 
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="62dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/background_border"
         android:orientation="vertical"
@@ -90,7 +95,7 @@
 
             <RadioButton
                 android:id="@+id/radioButton"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="@string/genderMale"
                 android:textColor="@color/colorPrimary"
@@ -99,7 +104,7 @@
 
             <RadioButton
                 android:id="@+id/radioButton2"
-                android:layout_width="wrap_content"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="@string/genderFemale"
                 android:textColor="@color/colorPrimary"
